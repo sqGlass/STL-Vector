@@ -1,0 +1,161 @@
+The contents of fifth are: 16 2 77 29
+The contents of fourth are: 100 100 100 100
+capacity: 16
+3
+4
+2
+0
+2
+3
+4
+5
+6
+7
+8
+9
+10
+foo and bar are not equal
+foo is less than bar
+foo is less than or equal to bar
+strange behavior: wow
+iterator sum: 5
+strange behavior: wow
+iterator sum: 5
+last iterator points at element: 
+first element: wow
+second element: wow
+WHILE LOOP
+vector element: wow
+vector element: wow
+vector element: wow
+vector element: wow
+vector element: wow
+vector element: wow
+vector element: wow
+vector element: wow
+vector element: 
+vector element: 
+FOR LOOP
+vector element: wow
+vector element: wow
+vector element: wow
+vector element: wow
+vector element: wow
+vector element: wow
+vector element: wow
+vector element: wow
+empty vector capacity: 0
+vector capacity with one element: 1
+vector capacity with two elements: 2
+vector capacity with three elements: 4
+vector capacity with four elements: 4
+vector capacity with five elements: 8
+vector capacity with six elements: 8
+vector capacity with seven elements: 8
+vector a2 contains: 1
+vector a2 contains: 3
+vector a2 contains: 6
+vector a2 contains: 7
+vector a2 contains: 2
+constructor fill vector capacity: 5
+COPY CHECK
+
+copied a2 capacity: 5
+copied a2 capacity: 7
+Size of first: 7
+Size of second: 5
+Size of third: 3
+myvector contains: 0 1 2 3 4 5 6 7 8 9
+myvector contains: 100 200 300
+myvector contains: 1101 2202
+iterator pos at element1: 7
+myvector contains after erasing 6: 1 2 3 4 5 7 8 9 10
+iterator pos at element2: 1
+myvector contains:
+myvector.front() is now 62
+The allocated array contains: 0 1 2 3 4
+Capacity before insert: 5
+After Insert 1 elem: 200 100 100 100 100 100
+ 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 200 100 100 100 100 100
+After Insert 50 elems: 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 200 100 100 100 100 100 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42
+After Insert 2 elems with 300 val: 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 200 100 100 100 100 100 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 300 300
+myvector contains: 501 502 503 42 42 400 400 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 200 100 100 100 100 100 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 300 300
+size: 100
+capacity: 128
+max_size: 4611686018427387903
+The elements of myvector add up to 600
+myvector contains: 9 8 7 6 5 4 3 2 1 0
+making foo grow:
+capacity changed: 1
+capacity changed: 2
+capacity changed: 4
+capacity changed: 8
+capacity changed: 16
+capacity changed: 32
+capacity changed: 64
+capacity changed: 128
+making bar grow:
+capacity changed: 100
+myvector contains: 1 2 3 4 5 100 100 100 0 0 0 0
+0. size: 0
+1. size: 10
+2. size: 20
+3. size: 19
+foo contains: 200 200 200 200 200
+bar contains: 100 100 100
+100
+100
+100
+100
+100
+PASSED1_______
+rev iterator at begin: 0
+rev iterator at end: 0
+myvector contains: 5 4 3 2 1
+capacity: 16
+8
+7
+9
+8
+10
+PASSED2_______
+rev iterator at begin: 0
+rev iterator at end: 0
+myvector contains: 0 1 2 3 4
+capacity: 16
+8
+7
+9
+8
+10
+MINE PASSED INSIDE FUNC
+PASSED3_______
+capacity: 16
+3
+4
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+PASSED4_______
+foo and bar are not equal
+foo is less than bar
+foo is less than or equal to bar
+my size: 10
+
+iterator points at: 6
+my contains BEFORE ERASE ITERATOR: 1 2 3 4 6 7 8 9 10
+erase :4
+my contains AFTER ERASE ITERATOR: 4 6 7 8 9 10
+
+iterator points at AFTTER: 9
+my size after erase: 6
+my contains: 4 6 7 8 9 10
+my new contains: 1 2 3 4 5 6 7 8 9 10
+after erase points at: 6
